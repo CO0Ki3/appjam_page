@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  width:100vw;
+  height:100vh;
+  background: linear-gradient(rgb(20, 31, 63), rgb(26, 42, 94));
+  position: relative;
+}
+.all {
+  width: 100%;
+  height: 100%;
+}
+.if {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  top: 15%;
+  right: 55%;
+}
+.if > .if-img {
+  max-width: 150%;
+  height: auto;
+}
+.star {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+.star > .star-img {
+  max-width: 100%;
+  height: auto;
+}
+.header-text {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10%;
+}
+.header-text > .header-img {
+  max-width: 9%;
+  height: auto;
+  margin-right: 30%;
+}
+.header-text > .header-img_ {
+  max-width: 7%;
+  height: auto;
+}
+.paper {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  top: 30%;
+  left: 21%;
+}
+.paper-img {
+  max-width: 20%;
+  height: auto;
+}
+.event-rule {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 55%;
+  left: 21%
+}
+.event-rule-img {
+  max-width: 20%;
+  height: auto;
+}
+.rule {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 32%;
+  left: 60%;
+}
+.rule-img {
+  max-width: 20%;
+  height: auto;
+}
+.close {
+  width: 1%;
+  height: 30%;
+  position: absolute;
+  top: 76%;
+  left: 90%;
+}
+.close-img {
+  max-width: 100%;
+  height: auto;
+}
+.bottom {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+.bottom-img {
+  max-width: 600%;
+  height: auto;
+}
